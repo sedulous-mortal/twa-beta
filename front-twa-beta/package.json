@@ -2,6 +2,11 @@
   "name": "twa-beta",
   "version": "0.1.0",
   "private": true,
+  "description": "Trade With Africa (TWA) is a startup led by Annick Thiombiano",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sedulous-mortal/twa-beta.git"
+  },
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@testing-library/jest-dom": "^4.2.4",

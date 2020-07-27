@@ -80,7 +80,7 @@ render(){
           <Button>TRADE NOW</Button>
         </div>
         
-        <p className="App-intro">Developer's note: {this.state.apiResponse}</p>
+        <p className="App-intro">Developer's note: {this.state.apiResponse ? this.state.apiResponse : "API DOWN"}</p>
       </div>
     );
   }
