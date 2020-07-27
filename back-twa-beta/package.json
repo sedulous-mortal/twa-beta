@@ -8,7 +8,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "start": "node index.js",
+    "start": "node ./bin/www",
     "test": "node test.js"
   },
   "dependencies": {
