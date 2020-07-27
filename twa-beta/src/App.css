@@ -1,12 +1,28 @@
 
 .App-logo {
-  height: 15vh;
+  height: 14vh;
   pointer-events: none;
-  padding: 1vh 1vw;
 }
+
+.App-logo-wrapper {
+  height: 14vh;
+}
+
+/* .T-under-logo {
+  color: #333;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: "Andika";
+  font-weight: 700;
+  padding: 1vw 1vh;
+} */
 
 .bold {
   font-weight: 700;
+}
+
+.pitch-wrapper {
+  margin: 10vh 25vw;
+  text-align: left;
 }
 
 /* @media (prefers-reduced-motion: no-preference) {
@@ -18,16 +34,30 @@
 .App-header {
   background-color: white;
   display: flex;
-  flex-direction: column;
   align-items: start;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-/* .App-link {
-  color: #61dafb;
-} */
+.App-menu-wrapper {
+  display: flex;
+  margin-left: 30vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-link {
+  color: white;
+  background-color: #333;
+  text-decoration: none;
+  padding: 2vw;
+}
+
+.App-link:hover{
+  color: #333;
+  background-color: #febd57;
+  transition: .5s;
+}
 
 /* @keyframes App-logo-spin {
   from {

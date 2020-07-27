@@ -1,5 +1,7 @@
 import React from 'react';
-import logo from './TWA_logo.png';
+import logo from './T_LOGO_GREY_2.png';
+import { Helmet } from 'react-helmet';
+import { Button } from '@material-ui/core';
 import './App.css';
 
 function App() {
@@ -44,15 +46,23 @@ function App() {
           </div>
         </div>
       </header>
-      <br />
-      At Trade With Africa, we value reliability and efficiency. 
-      <br />
-      We provide a digital platform to ensure the <span className="bold">right people</span> connect at the <span className="bold">right time </span> and trade at the <span className="bold">right price</span> for everyone.
-      <br />
-      We guarantee that you will receive payment for what you sell within one day of it being delivered.  We connect you with nearby buyers so that you can sell your high-quality products on the market as fast as possible, and at the price that is right for you.
-      <br />
-      Sign up for our beta below! 
-      <br />
+      <div className="pitch-wrapper">
+        <p>
+        At Trade With Africa, we value reliability and efficiency. </p>
+        <p>
+        We provide a digital platform to ensure the <span className="bold">right people</span> connect at the <span className="bold">right time </span> and trade at the <span className="bold">right price</span> for everyone.
+        </p>
+        <p>
+        We guarantee that you will receive payment for what you sell within one day of it being delivered.  We connect you with nearby buyers so that you can sell your high-quality products on the market as fast as possible, and at the price that is right for you.
+        </p>
+        <p>
+        Sign up for our beta below! 
+        </p>
+      </div>
+
+      <div className="signup-button-wrapper">
+        <Button>TRADE NOW</Button>
+      </div>
     </div>
   );
 }
